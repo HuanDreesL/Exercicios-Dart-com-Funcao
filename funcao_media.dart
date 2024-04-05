@@ -11,18 +11,20 @@ void main() {
     int valor = int.parse(stdin.readLineSync()!);
     numeros.add(valor);
     }
-  var mensagem = mediaNumeros(numeros);
-  print(mensagem);
+  
+  double media = mediaNumeros(numeros);
+  print(media);
 }
-   mediaNumeros (List<int> numeros){
+  double mediaNumeros (List<int> numeros){
  
   int soma = 0;
   double media = 0.0;
 
   for(int i = 0; i < numeros.length; i++){
     soma = soma + numeros[i];
-    media = soma / numeros.length;
   }
+    media = soma / numeros.length;
+    
   return media;
   }
 
