@@ -14,18 +14,7 @@ void main(){
       if(palavra1.length != palavra2.length){
           bool ehAnagramas = false;
       }
-      else{
-        List<String> listaPalavra1 = palavra1.split('');
-        List<String> listaPalavra2 = palavra2.split('');
-        listaPalavra1.sort();
-        listaPalavra2.sort();
-        for(int i = 0; i < listaPalavra1.length; i++){
-          if(listaPalavra1[i] != listaPalavra2[i]){
-            ehAnagramas = false;
-            break;
-          }
-        }
-      }
+      else
       if(ehAnagramas){
         print("A palavra é um anagrama");
       }
