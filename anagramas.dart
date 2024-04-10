@@ -14,7 +14,6 @@ void main(){
       if(palavra1.length != palavra2.length){
           bool ehAnagramas = false;
       }
-      else
       if(ehAnagramas){
         print("A palavra é um anagrama");
       }
