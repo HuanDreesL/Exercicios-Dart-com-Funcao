@@ -19,12 +19,11 @@ void main() {
   List<String> verificaPalavras(List<String> palavras){
     List<String> palavrasComA = [];
     for(int i = 0; i < palavras.length; i++){
-      if(palavras[i][0] == 'A'){
+      if(palavras[i][0] == 'A' && palavras[i][0] == 'a'){
         palavrasComA.add(palavras[i]);
       }
     }
     return palavrasComA;
   }
-
 
 
