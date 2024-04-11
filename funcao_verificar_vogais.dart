@@ -16,7 +16,7 @@ void main() {
   for (int i = 0; i < palavra.length; i++) {
     String letra = palavra[i];
     
-    if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
+    if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' || letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U') {
       contadorVogais++;
     }
   }
