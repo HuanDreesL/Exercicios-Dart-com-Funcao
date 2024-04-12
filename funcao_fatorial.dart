@@ -9,11 +9,10 @@ void main() {
 
 }
   int carcularFatorial(int numeroFatorial){
-    int Fatorial = 1;
+    int fatorial = 1;
 
     for(int i = 1; i <= numeroFatorial; i++){
-      Fatorial = Fatorial * i;
+      fatorial = fatorial * i;
     }
-    return Fatorial;
+    return fatorial;
   }
-
