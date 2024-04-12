@@ -1,15 +1,15 @@
 import 'dart:io';
 void main(){
-  String palavra1;
+  String palavra3;
   String palavra2;
   int dec;
   do{
   stdout.write("Escreva a 1° Palavra: ");
-  palavra1 = stdin.readLineSync()!;
+  palavra3 = stdin.readLineSync()!;
   stdout.write("Escreva a 2° Palavra: ");
   palavra2 = stdin.readLineSync()!;
 
-  var mensagem = verificAranagrama(palavra1, palavra2);
+  var mensagem = verificAranagrama(palavra3, palavra2);
   print(mensagem);
 
   stdout.write("Deseja fazer uma nova tentativa?\n1-Sim\n2-Não\n:");
