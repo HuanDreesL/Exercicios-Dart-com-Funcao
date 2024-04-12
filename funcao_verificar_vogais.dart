@@ -10,7 +10,7 @@ void main() {
   print(mensagem);
 }
 
-  int verificarVogais(String palavra) {
+int verificarVogais(String palavra) {
   int contadorVogais = 0;
 
   for (int i = 0; i < palavra.length; i++) {
