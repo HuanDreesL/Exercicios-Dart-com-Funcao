@@ -22,7 +22,7 @@ void main() {
     List<String> listaPalavras5 = [];    
     for(int i = 0; i < palavras.length; i++){
 
-      if(palavras[i].length >= 5){
+      if(palavras[i].length > 5){
         listaPalavras5.add(palavras[i]);
       }
     }

@@ -14,6 +14,7 @@ void main(){
     double divisao;
     if(N2 == 0){
       print("Não é possivel dividir número por ZERO!");
+      return 0;
     }
     divisao = N1 / N2; 
     return divisao;

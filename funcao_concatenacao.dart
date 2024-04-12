@@ -12,10 +12,10 @@ void main(){
   var mensagem = concatenacao(palavras);
   print(mensagem);
 }
-  String concatenacao(List<String> palavras){
+String concatenacao(List<String> palavras){
     String juntarString = '';
     for(int i = 0; i < palavras.length; i++){
       juntarString = juntarString + palavras[i];
     }
     return juntarString;
-  }
+}
