@@ -2,7 +2,7 @@ import 'dart:io';
 void main(){
   String palavra3;
   String palavra2;
-  int dec;
+  int dec = 0;
   do{
   stdout.write("Escreva a 1° Palavra: ");
   palavra3 = stdin.readLineSync()!;
