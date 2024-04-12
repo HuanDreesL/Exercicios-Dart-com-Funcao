@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   String palavra;
 
-  stdout.write("Escreva a Palavra: ");
+  stdout.write("Escreva a Palavra: aaa");
   palavra = stdin.readLineSync()!;
 
   var mensagem = verificarVogais(palavra);
